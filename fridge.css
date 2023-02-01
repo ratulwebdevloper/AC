@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header-one{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    padding: 10px;
+   
+}
+
+.sub-area{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+.menu-area ul li{
+   float: left;
+   list-style-type: none;
+   margin-left: 10px;
+
+}
+
+.menu-two ul li{
+    float: left;
+   list-style-type: none;
+   margin-left: 10px;
+
+}
+
+.menu-area ul li a{
+    text-decoration: none;
+    padding: 5px;
+    font-weight: 700;
+}
+.menu-two ul li a{
+    text-decoration: none;
+    padding: 5px;
+    font-weight: 700;
+}
+
+.logo-area img{
+    width: 200px;
+
+}
+
+.menu-area a:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+.menu-underline{
+    position: relative;
+    padding: 0px 6px;
+    text-decoration: none;
+}
+
+.menu-underline::after{
+    content: "";
+    position: absolute;
+    background-color: rgb(242, 109, 191);
+    width: 0px;
+    height: 2px;
+    bottom: -5px;
+    left: 0px;
+
+}
+
+.menu-underline:hover::after{
+    width: 100%;
+    color: chartreuse;
+}
+
+.product{
+    background-color: blue;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px 5px;
+    color: white;
+    display: inline-block;
+    float: left;
+    margin: 0px 0px 0px 20px;
+}
+
+.sign-up input{
+    padding: 10px;
+    margin-left: 60px;
+    width: 28%;
+}
+
+.product-name{
+    margin: 20px 0px;
+}
+
+
+.main-area-fridge{
+    margin: 0px 80px;
+}
+
+.fridge-area{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 300px;
+    height: 408px;
+    margin: 10px 10px;
+    border: 2px solid rgb(241, 232, 232);
+    transition: all .4s ease-in-out;
+}
+
+.fridge-area:hover{
+    box-shadow: 2px 2px  5px rgb(200, 211, 212) , -2px -2px 5px hsl(257, 14%, 81%);
+}
+
+.fridge img{
+    width: 256px;
+    height: 280px;
+}
+
+.model-name p{
+    font-size: 20px;
+    padding: 5px 3px;
+    text-align: center;
+    font-weight: 700;
+   
+    margin: 10px;
+    border-radius: 4px;
+}
+
+.compare{
+    background-color: #1f9cd8;
+    border-radius: 3px;
+    padding: 6px;
+    font-size: 16px;
+    display: inline-block;
+    color: #ffffff;
+    margin-left: 100px;
+}
+
+.price{
+    float: left;
+    margin: 10px 5px;
+    color: hsl(280, 61%, 50%);
+    font-weight: 700;
+}
+
+second.. area...
+
+.fridge-area-1{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 300px;
+    height: 408px;
+    margin: 10px 0px;
+}
+
+.fridge-area:hover{
+    box-shadow: 2px 2px  5px rgb(200, 211, 212) , -2px -2px 5px hsl(257, 14%, 81%);
+}
+
+.fridge img{
+    width: 256px;
+    height: 280px;
+}
+
+.model-name p{
+    font-size: 20px;
+    padding: 5px 3px;
+    text-align: center;
+    font-weight: 700;
+   
+    margin: 10px;
+    border-radius: 4px;
+}
+
+.compare{
+    background-color: #1f9cd8;
+    border-radius: 3px;
+    padding: 6px;
+    font-size: 16px;
+    display: inline-block;
+    color: #ffffff;
+    margin-left: 100px;
+}
+
+.price{
+    float: left;
+    margin: 10px 5px;
+    color: hsl(280, 61%, 50%);
+    font-weight: 700;
+}
+
+
+.fridge-area-2{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 300px;
+    height: 408px;
+    margin: 10px 0px;
+}
+
+.fridge-area:hover{
+    box-shadow: 2px 2px  5px rgb(200, 211, 212) , -2px -2px 5px hsl(257, 14%, 81%);
+}
+
+.fridge img{
+    width: 256px;
+    height: 280px;
+}
+
+.model-name p{
+    font-size: 20px;
+    padding: 5px 3px;
+    text-align: center;
+    font-weight: 700;
+   
+    margin: 10px;
+    border-radius: 4px;
+}
+
+.compare{
+    background-color: #1f9cd8;
+    border-radius: 3px;
+    padding: 6px;
+    font-size: 16px;
+    display: inline-block;
+    color: #ffffff;
+    margin-left: 100px;
+}
+
+.price{
+    float: left;
+    margin: 10px 5px;
+    color: hsl(280, 61%, 50%);
+    font-weight: 700;
+}
+
+
+.fridge-area-3{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 300px;
+    height: 408px;
+    margin: 10px 0px;
+}
+
+.fridge-area:hover{
+    box-shadow: 2px 2px  5px rgb(200, 211, 212) , -2px -2px 5px hsl(257, 14%, 81%);
+}
+.forst-fridge-1:hover{
+    box-shadow: 2px 2px  5px rgb(200, 211, 212) , -2px -2px 5px hsl(257, 14%, 81%);
+}
+
+.fridge img{
+    width: 256px;
+    height: 280px;
+}
+
+.model-name p{
+    font-size: 20px;
+    padding: 5px 3px;
+    text-align: center;
+    font-weight: 700;
+   
+    margin: 10px;
+    border-radius: 4px;
+}
+
+.compare{
+    background-color: #1f9cd8;
+    border-radius: 3px;
+    padding: 6px;
+    font-size: 16px;
+    display: inline-block;
+    color: #ffffff;
+    margin-left: 100px;
+}
+
+.price{
+    float: left;
+    margin: 10px 5px;
+    color: hsl(280, 61%, 50%);
+    font-weight: 700;
+}
+
+.forst-fridge-1{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 300px;
+    height: 390px;
+    margin: 10px 10px;
+    border: 2px solid rgb(241, 232, 232);
+    transition: all .4s ease-in-out;
+}
+
+.compare-one-1{
+    background-color: #0ce947;
+    border-radius: 3px;
+    padding: 6px;
+    font-size: 16px;
+    display: inline-block;
+    color: #ffffff;
+    margin-left: 90px;
+}
+
+.compare-one-11{
+    background-color: #f23496;
+    border-radius: 3px;
+    padding: 6px;
+    font-size: 16px;
+    display: inline-block;
+    color: #ffffff;
+    margin-left: 90px;
+}
+
+.discount p{
+    background-color: #1B1464;
+    color: antiquewhite;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 10px 3px;
+    position: relative;
+    top: -15px;
+    left: 10px;
+}
+
+
+
+
+.fotter-fularea{
+    background-color: #f8f8f9;
+   margin: 20px 0px;
+}
+
+.fotter-area{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1000PX;
+    line-height: 30px;
+}
+
+.fotter-area li{
+    list-style-type: none;
+    font-size: 13px;
+    color: #9f9fa1;
+    font-weight: 700;
+}
+
+.fotter-area li:hover{
+    color: #23a3dd;
+    font-weight: 700;
+}
+
+.fotter-area ul a{
+    text-decoration: none;
+    color: #9f9fa1;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.fotter-area ul a:hover{
+    color: #23a3dd;
+    font-weight: 700;
+}
+
+.fotter-area h3{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(9, 9, 237);
+}
+
+
+
+.logo-one{
+    margin-top: 10px;
+}
+
+.logo-one img{
+    width: 150px;
+    margin: 0px 450px;
+}
